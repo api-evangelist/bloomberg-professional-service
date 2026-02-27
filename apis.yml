@@ -1,0 +1,87 @@
+name: Bloomberg Professional Service
+description: Bloomberg Professional Service is a comprehensive financial data, news, and analytics platform serving investment professionals worldwide. It provides real-time and historical market data, trading capabilities, news, research, and analytical tools for financial markets.
+image: https://www.bloomberg.com/company/press/wp-content/uploads/sites/40/2018/02/Bloomberg_Logo_2018.png
+url: https://www.bloomberg.com/professional/
+created: 2024-01-20 00:00:00+00:00
+modified: 2024-01-20 00:00:00+00:00
+apis:
+- name: Bloomberg Data License API
+  description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information
+  baseURL: https://www.bloomberg.com/professional/product/data-license/
+  humanURL: https://www.bloomberg.com/professional/support/data-license/
+  properties:
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/support/data-license/
+  - type: Pricing
+    url: https://www.bloomberg.com/professional/product/data-license/#pricing
+  tags:
+  - Financial Data
+  - Market Data
+  - Historical Data
+  - Reference Data
+- name: Bloomberg API (BLPAPI)
+  description: Desktop API enabling custom applications to access Bloomberg data and functionality programmatically through the Bloomberg Terminal
+  baseURL: https://www.bloomberg.com/professional/support/api-library/
+  humanURL: https://www.bloomberg.com/professional/support/api-library/
+  properties:
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/support/api-library/
+  - type: SDK
+    url: https://www.bloomberg.com/professional/support/software-updates/
+  - type: Code Examples
+    url: https://www.bloomberg.com/professional/support/api-library/
+  tags:
+  - Desktop API
+  - Terminal Integration
+  - Real-time Data
+  - Trading
+- name: Bloomberg SAPI (Server API)
+  description: Server-side API for enterprise applications to access Bloomberg data without requiring Terminal installations
+  baseURL: https://www.bloomberg.com/professional/support/api-library/
+  humanURL: https://www.bloomberg.com/professional/support/api-library/
+  properties:
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/support/api-library/
+  - type: Enterprise Support
+    url: https://www.bloomberg.com/professional/support/
+  tags:
+  - Enterprise
+  - Server API
+  - Market Data
+  - Integration
+- name: Bloomberg B-PIPE
+  description: Real-time streaming data feed delivering market data with low latency for algorithmic trading and quantitative analysis
+  baseURL: https://www.bloomberg.com/professional/product/b-pipe/
+  humanURL: https://www.bloomberg.com/professional/product/b-pipe/
+  properties:
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/support/api-library/
+  - type: Product Information
+    url: https://www.bloomberg.com/professional/product/b-pipe/
+  tags:
+  - Real-time
+  - Streaming
+  - Low Latency
+  - Algorithmic Trading
+maintainers:
+- name: Bloomberg L.P.
+  email: support@bloomberg.com
+  url: https://www.bloomberg.com/professional/support/
+common:
+- type: Portal
+  url: https://www.bloomberg.com/professional/
+- type: Support
+  url: https://www.bloomberg.com/professional/support/
+- type: Status
+  url: https://www.bloomberg.com/professional/support/software-updates/
+- type: Terms of Service
+  url: https://www.bloomberg.com/notices/tos/
+- type: Contact
+  url: https://www.bloomberg.com/professional/request-demo/
+tags:
+- Financial Services
+- Market Data
+- Trading
+- Analytics
+- Enterprise
+- Real-time Data
