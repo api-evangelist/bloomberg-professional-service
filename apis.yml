@@ -3,45 +3,61 @@ description: Bloomberg Professional Service is a comprehensive financial data, n
 image: https://www.bloomberg.com/company/press/wp-content/uploads/sites/40/2018/02/Bloomberg_Logo_2018.png
 url: https://www.bloomberg.com/professional/
 created: 2024-01-20 00:00:00+00:00
-modified: 2024-01-20 00:00:00+00:00
+modified: 2026-03-03 00:00:00+00:00
 apis:
 - name: Bloomberg Data License API
-  description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information
+  description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information. Content can be accessed via a REST API, SFTP, or natively in all major cloud providers, with bulk datasets available daily spanning 20+ years of history.
   baseURL: https://www.bloomberg.com/professional/product/data-license/
-  humanURL: https://www.bloomberg.com/professional/support/data-license/
+  humanURL: https://www.bloomberg.com/professional/products/data/data-management/data-license/
   properties:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/data-license/
   - type: Pricing
     url: https://www.bloomberg.com/professional/product/data-license/#pricing
+  - type: Product Information
+    url: https://www.bloomberg.com/professional/products/data/data-management/data-license/
   tags:
   - Financial Data
   - Market Data
   - Historical Data
   - Reference Data
+  - ESG
+  - Fundamentals
+  - Cloud
 - name: Bloomberg API (BLPAPI)
-  description: Desktop API enabling custom applications to access Bloomberg data and functionality programmatically through the Bloomberg Terminal
+  description: Desktop API enabling custom applications to access Bloomberg data and functionality programmatically through the Bloomberg Terminal. Supports development in C++, Java, C# (.NET), Python, and other languages, providing 24x7 programmatic access to streaming real-time and delayed data, reference data, historical data, and intraday data.
   baseURL: https://www.bloomberg.com/professional/support/api-library/
   humanURL: https://www.bloomberg.com/professional/support/api-library/
   properties:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
+  - type: Developer Documentation
+    url: https://bloomberg.github.io/blpapi-docs/
   - type: SDK
     url: https://www.bloomberg.com/professional/support/software-updates/
   - type: Code Examples
     url: https://www.bloomberg.com/professional/support/api-library/
+  - type: GitHub Node.js SDK
+    url: https://github.com/bloomberg/blpapi-node
+  - type: GitHub Haskell SDK
+    url: https://github.com/bloomberg/blpapi-hs
   tags:
   - Desktop API
   - Terminal Integration
   - Real-time Data
   - Trading
+  - SDK
 - name: Bloomberg SAPI (Server API)
-  description: Server-side API for enterprise applications to access Bloomberg data without requiring Terminal installations
-  baseURL: https://www.bloomberg.com/professional/support/api-library/
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
+  description: Server-side API delivering the same real-time market data, historical data, premium reference data, and calculation tools available with the Bloomberg Terminal for seamless use in proprietary and Bloomberg-approved client server applications. Supports C++, .NET, VBA via COM, Java, and Python, and leverages existing Bloomberg Terminal exchange entitlements.
+  baseURL: https://www.bloomberg.com/professional/products/data/data-connectivity/server-api/
+  humanURL: https://www.bloomberg.com/professional/products/data/data-connectivity/server-api/
   properties:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
+  - type: Product Information
+    url: https://www.bloomberg.com/professional/products/data/data-connectivity/server-api/
+  - type: Insights
+    url: https://www.bloomberg.com/professional/insights/data/bloombergs-server-api-what-you-need-to-know/
   - type: Enterprise Support
     url: https://www.bloomberg.com/professional/support/
   tags:
@@ -49,8 +65,9 @@ apis:
   - Server API
   - Market Data
   - Integration
+  - Cloud
 - name: Bloomberg B-PIPE
-  description: Real-time streaming data feed delivering market data with low latency for algorithmic trading and quantitative analysis
+  description: Real-time streaming market data feed providing access to 35 million instruments across all asset classes, aggregated from 330+ exchanges and 5,000+ contributors. Supports Bloomberg composite tickers and market indices with low latency delivery for algorithmic trading, quantitative analysis, and non-display applications. Available via cloud connectivity on AWS and Azure.
   baseURL: https://www.bloomberg.com/professional/product/b-pipe/
   humanURL: https://www.bloomberg.com/professional/product/b-pipe/
   properties:
@@ -58,24 +75,118 @@ apis:
     url: https://www.bloomberg.com/professional/support/api-library/
   - type: Product Information
     url: https://www.bloomberg.com/professional/product/b-pipe/
+  - type: AWS Marketplace
+    url: https://aws.amazon.com/financial-services/partner-solutions/bloomberg-b-pipe/
   tags:
   - Real-time
   - Streaming
   - Low Latency
   - Algorithmic Trading
+  - Market Data Feed
+  - Cloud
+- name: Bloomberg Hypermedia API (HAPI)
+  description: Provides programmatic access to Data License content with a combination of request-response and subscription-based services. Available content includes reference, pricing, regulatory, and alternative data. Uses JWT authentication and supports both bulk subscription-based datasets and per-security datasets.
+  baseURL: https://www.bloomberg.com/professional/products/data/data-management/data-license/
+  humanURL: https://www.bloomberg.com/professional/products/data/data-management/data-license/
+  properties:
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/support/api-library/
+  - type: Product Information
+    url: https://www.bloomberg.com/professional/products/data/data-management/data-license/
+  tags:
+  - REST API
+  - Data License
+  - Reference Data
+  - Pricing Data
+  - Regulatory Data
+  - Alternative Data
+- name: Bloomberg HTTP API
+  description: HTTP wrapper making the Bloomberg Open API available via HTTP and WebSockets, allowing clients to access reference and historical request/response data as well as make subscriptions for live data without native BLPAPI SDK integration.
+  baseURL: https://github.com/bloomberg/blpapi-http
+  humanURL: https://github.com/bloomberg/blpapi-http
+  properties:
+  - type: Documentation
+    url: https://github.com/bloomberg/blpapi-http/blob/develop/doc/http-api-guide.md
+  - type: GitHub Repository
+    url: https://github.com/bloomberg/blpapi-http
+  tags:
+  - HTTP
+  - WebSockets
+  - REST API
+  - Open Source
+  - Real-time Data
+  - Historical Data
+- name: Bloomberg Terminal Connect API
+  description: Enables synchronization of actions across third-party applications and the Bloomberg Terminal. Allows developers to initiate Bloomberg functions within external applications and synchronize with Bloomberg Launchpad for seamless Terminal integration workflows.
+  baseURL: https://www.bloomberg.com/professional/support/api-library/
+  humanURL: https://www.bloomberg.com/professional/support/api-library/
+  properties:
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/support/api-library/
+  - type: Developer Portal
+    url: https://developer.bloomberg.com/
+  tags:
+  - Terminal Integration
+  - Desktop
+  - Launchpad
+  - Synchronization
+- name: Bloomberg App Portal
+  description: Platform for building, connecting, and scaling third-party applications within the Bloomberg Terminal ecosystem. Developers can create extensions published and distributed to Bloomberg Terminal subscribers across categories including data analysis, portfolio management, risk analysis, and data visualization.
+  baseURL: https://www.bloomberg.com/professional/solutions/asset-management/developer/
+  humanURL: https://www.bloomberg.com/professional/solutions/asset-management/developer/
+  properties:
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/solutions/asset-management/developer/
+  - type: Developer Portal
+    url: https://developer.bloomberg.com/
+  tags:
+  - App Marketplace
+  - Terminal Extensions
+  - Developer Platform
+  - Third Party Apps
+- name: Bloomberg Data License Plus (DL+)
+  description: Fully managed, public cloud-based data management solution that brings Bloomberg data together in a centralized platform for easier and more consistent delivery to downstream systems.
+  baseURL: https://www.bloomberg.com/professional/products/data/data-management/dms/
+  humanURL: https://www.bloomberg.com/professional/products/data/data-management/dms/
+  properties:
+  - type: Product Information
+    url: https://www.bloomberg.com/professional/products/data/data-management/dms/
+  - type: Documentation
+    url: https://www.bloomberg.com/professional/support/api-library/
+  tags:
+  - Cloud
+  - Data Management
+  - Data License
+  - Enterprise
 maintainers:
-- name: Bloomberg L.P.
-  email: support@bloomberg.com
-  url: https://www.bloomberg.com/professional/support/
+- name: Kin Lane
+  email: kin@apievangelist.com
+  url: https://apievangelist.com/
 common:
 - type: Portal
   url: https://www.bloomberg.com/professional/
+- type: Developer Portal
+  url: https://developer.bloomberg.com/
+- type: Developer
+  url: https://www.bloomberg.com/professional/solutions/asset-management/developer/
+- type: Documentation
+  url: https://bloomberg.github.io/blpapi-docs/
+- type: API Library
+  url: https://www.bloomberg.com/professional/support/api-library/
 - type: Support
   url: https://www.bloomberg.com/professional/support/
 - type: Status
   url: https://www.bloomberg.com/professional/support/software-updates/
+- type: GitHub Organization
+  url: https://github.com/bloomberg
+- type: Open Source
+  url: https://bloomberg.github.io/
+- type: Data Connectivity
+  url: https://www.bloomberg.com/professional/products/data/data-connectivity/
 - type: Terms of Service
   url: https://www.bloomberg.com/notices/tos/
+- type: Privacy Policy
+  url: https://www.bloomberg.com/notices/
 - type: Contact
   url: https://www.bloomberg.com/professional/request-demo/
 tags:
@@ -85,3 +196,6 @@ tags:
 - Analytics
 - Enterprise
 - Real-time Data
+- Cloud
+- Open Source
+- Data Management
