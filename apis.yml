@@ -33,13 +33,13 @@ apis:
         url: https://www.bloomberg.com/professional/support/api-library/
       - type: Documentation
         url: https://bloomberg.github.io/blpapi-docs/
-      - type: SDK
+      - type: SDKs
         url: https://www.bloomberg.com/professional/support/software-updates/
       - type: CodeExamples
         url: https://www.bloomberg.com/professional/support/api-library/
-      - type: SDK
+      - type: SDKs
         url: https://github.com/bloomberg/blpapi-node
-      - type: SDK
+      - type: SDKs
         url: https://github.com/bloomberg/blpapi-hs
     tags:
       - Desktop API
