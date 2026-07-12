@@ -163,6 +163,8 @@ maintainers:
     email: kin@apievangelist.com
     url: https://apievangelist.com/
 common:
+  - type: DomainSecurity
+    url: security/bloomberg-professional-service-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/showcase/bloomberg-professional-service
   - type: Portal
