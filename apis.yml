@@ -175,6 +175,15 @@ maintainers:
     email: kin@apievangelist.com
     url: https://apievangelist.com/
 common:
+  - type: IssueTracker
+    url: https://github.com/bloomberg/blpapi-http/issues
+  - type: CodeOfConduct
+    url: https://github.com/bloomberg/.github/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/bloomberg/blpapi-http/blob/develop/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/bloomberg/blpapi-http/blob/develop/LICENSE
   - type: DomainSecurity
     url: security/bloomberg-professional-service-domain-security.yml
   - type: LinkedIn
