@@ -125,6 +125,13 @@ apis:
     tags:
       - Historical Data
       - HTTP
+      - Open-Source
+      - Real-Time Data
+      - REST API
+      - WebSockets
+    tags_raw:
+      - Historical Data
+      - HTTP
       - Open Source
       - Real-Time Data
       - REST API
@@ -244,6 +251,16 @@ common:
       - Node.js
       - Haskell
 tags:
+  - Analytics
+  - Cloud
+  - Data Management
+  - Enterprise
+  - Financial-Services
+  - Market Data
+  - Open-Source
+  - Real-Time Data
+  - Trading
+tags_raw:
   - Analytics
   - Cloud
   - Data Management
