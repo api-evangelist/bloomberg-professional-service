@@ -2,6 +2,19 @@ name: Bloomberg Professional Service
 description: Bloomberg Professional Service is a comprehensive financial data, news, and analytics platform serving
   investment professionals worldwide. It provides real-time and historical market data, trading capabilities, news,
   research, and analytical tools for financial markets.
+deliveryModel:
+  model: open-core
+  license: Apache-2.0
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 specificationVersion: '0.23'
 accessModel:
   pricing: freemium
