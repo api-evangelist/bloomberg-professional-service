@@ -160,7 +160,7 @@ apis:
   - Open-Source
   - Real-Time Data
   - REST API
-  - WebSockets
+  - WebSocket
   tags_raw:
   - Historical Data
   - HTTP
