@@ -32,6 +32,9 @@ image: https://www.bloomberg.com/company/press/wp-content/uploads/sites/40/2018/
 url: https://www.bloomberg.com/professional/
 created: 2024-01-20 00:00:00+00:00
 modified: '2026-09-16'
+x-docs-platform: redoc
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-20
 apis:
 - name: Bloomberg Data License API
   description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing,
