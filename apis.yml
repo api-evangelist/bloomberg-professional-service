@@ -160,7 +160,7 @@ apis:
   tags:
   - Historical Data
   - HTTP
-  - Open-Source
+  - Open Source
   - Real-Time Data
   - REST API
   - WebSocket
@@ -171,6 +171,7 @@ apis:
   - Real-Time Data
   - REST API
   - WebSockets
+  - Open-Source
 - name: Bloomberg Terminal Connect API
   description: Enables synchronization of actions across third-party applications and the Bloomberg Terminal.
     Allows developers to initiate Bloomberg functions within external applications and synchronize with
@@ -303,9 +304,9 @@ tags:
 - Cloud
 - Data Management
 - Enterprise
-- Financial-Services
+- Financial Services
 - Market Data
-- Open-Source
+- Open Source
 - Real-Time Data
 - Trading
 tags_raw:
@@ -318,5 +319,7 @@ tags_raw:
 - Open Source
 - Real-Time Data
 - Trading
+- Financial-Services
+- Open-Source
 x-parent: bloomberg
 x-relationship: product
